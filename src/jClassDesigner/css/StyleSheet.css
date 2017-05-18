@@ -1,0 +1,90 @@
+/*        
+    Author:	Jia Sheng Ma
+    Version:	1.0
+*/
+
+/* CSS CLASS FOR OUR BIG PANES*/
+.topToolbarPane {
+    /*-fx-background-color: #35465c;*/
+    -fx-background-color: ghostwhite;
+    /*-fx-background-radius: 5.0;*/
+    -fx-padding: 0;
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+    -fx-alignment: CENTER;
+}
+
+.fileToolbarPane, .editToolbarPane, .viewToolbarPane {
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+    -fx-background-color:ghostwhite;
+}
+/*
+ .editToolbarPane {
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+}
+
+.viewToolbarPane {
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+}*/
+
+.gridSnap_vbox {
+    -fx-padding: 0 20 0 20;
+    -fx-spacing: 5;
+    -fx-alignment:CENTER_LEFT;
+}
+
+.cbx {
+    -fx-font-color: #ffffff;
+    -fx-font-size: 12px;
+    /*-fx-font-family: "courier new";*/
+}
+.workspace {
+    -fx-background-color:cadetblue;
+}
+.workspace_panes {
+    -fx-background-color: cadetblue;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-font-color: #ffffff;
+}
+
+.vboxes {
+/*    -fx-border-width: 1px; 
+    -fx-border-color: #000000;
+    -fx-border-radius: 6;*/
+    -fx-padding: 3;
+}
+
+.hboxes {
+    -fx-border-width: 1px; 
+    -fx-border-color: #000000;
+    -fx-padding: 8 5 8 5;
+    -fx-alignment:CENTER_LEFT;
+}
+
+.classUI {
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+    -fx-padding: 10 5 9 5;
+}
+
+.diagram {
+/*    -fx-border-width: 1px;
+    -fx-border-color: #000000;*/
+    -fx-background-color: #ffffff;
+}
+
+.diagram_components{
+    -fx-border-width: 1px;
+    -fx-border-color: #000000;
+}
+
+.text_vbox {
+    -fx-border-width: 2px;
+    -fx-alignment: CENTER;
+    -fx-padding: 10; 
+    -fx-border-color: #000000;
+}
